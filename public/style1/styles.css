@@ -1,18 +1,17 @@
 
 body{
     font-family: sans-serif;
-   
-    
+
 }
 
 
-header{
+header div{
     display: flex;
     flex-direction: row;
     background-color: #808080;
     color: 	red;
     padding-left: 160px;
-    height: 15vh;
+    height: 20vh;
     font-size: 16px;
     
 }
@@ -23,27 +22,7 @@ flex-direction: row;
     position: absolute;
     top: 25px;
     right: 1320px;
-/*
- margin-left: 200px;
- margin-top: -350px;
- */
 }
-
-/*
-figure img{
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-}
-*/
-
-/*
-figure  img{
-    position: absolute;
-    top: 25px;
-    right: 1320px;
-}
-*/
 
 
 .contacts{
@@ -205,7 +184,7 @@ h3 {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 
     .content { 
         grid-template-columns: repeat(1, 1fr); 
@@ -238,7 +217,44 @@ h3 {
         width: 390px;
     }
 
-  
+  .contacts{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    height: 193px;
+    line-height: 0.5;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: static;
+    display: flex;
+    
+  }
+
+
+  figure img {
+    width: 84px;
+    margin-left: -189px;
+    margin-top: 65px;
+    flex-direction: column;
+    display: flex;
+    position: static;
+
+  }
+
+    header {
+        height: 162px;
+    }
+
+    
+
+    h1 {
+        font-size :19px;
+     }
+
+    h2 {
+        font-size : 18px
+     }
+    
 
 }
 
